@@ -35,16 +35,8 @@ web-scraper/
 │── README.md
 Como Executar
 Clone o repositório:
-
-bash
-Copiar
-Editar
-git clone https://github.com/seu-usuario/web-scraper.git
+git clone https://github.com/igornayan/IntuitiveCareTests.git
 cd web-scraper
 Compile e execute o projeto com Maven:
-
-bash
-Copiar
-Editar
 mvn spring-boot:run
 Os arquivos gerados estarão no diretório downloads/.
