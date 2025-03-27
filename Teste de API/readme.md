@@ -2,18 +2,6 @@ Projeto FastAPI + Vue.js
 
 Este projeto consiste em uma API desenvolvida com FastAPI para realizar buscas em um arquivo CSV e um frontend em Vue.js para interagir com a API.
 
-Estrutura do Projeto
-
-/ projeto
-  ├── backend/       # FastAPI
-  │   ├── main.py    # Código principal da API
-  │   ├── Relatorio_cadop.csv  # Arquivo CSV com os dados
-  ├── frontend/      # Vue.js
-  │   ├── src/       # Código-fonte do frontend
-  │   ├── public/    # Arquivos públicos
-  │   ├── package.json # Dependências do Vue.js
-  ├── README.md      # Documentação
-
 Como executar o projeto
 
 1. Configurar e rodar o backend (FastAPI)
@@ -50,13 +38,13 @@ npm install
 
 Rodar o servidor Vue.js
 
-npm run dev
+npm run serve
 
-O frontend estará disponível em http://localhost:5173
+O frontend estará disponível em http://localhost:8080
 
 Testando a integração
 
-1- Inicie o backend com uvicorn main:app --reload 2- Inicie o frontend com npm run dev 3- Acesse http://localhost:5173 e faça buscas para testar a API!
+1- Inicie o backend com uvicorn main:app --reload 2- Inicie o frontend com npm run dev 3- Acesse http://localhost:8080 e faça buscas para testar a API!
 
 Tecnologias utilizadas
 
