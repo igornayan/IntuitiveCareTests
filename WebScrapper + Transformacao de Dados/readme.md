@@ -17,26 +17,7 @@ Spring Boot
 
 Apache PDFBox (para extração de texto)
 
-Estrutura
-css
-Copiar
-Editar
-web-scraper/
-│── src/
-│   ├── main/
-│   │   ├── java/com/IntCare/WebScraper/
-│   │   │   ├── WebScraperApplication.java
-│   │   │   ├── PdfExtractor.java
-│   │   │   ├── CsvGenerator.java
-│   │   │   ├── ZipCompressor.java
-│   ├── resources/
-│── downloads/ (diretório para arquivos gerados)
-│── pom.xml
-│── README.md
 Como Executar
-Clone o repositório:
-git clone https://github.com/igornayan/IntuitiveCareTests.git
-cd web-scraper
 Compile e execute o projeto com Maven:
 mvn spring-boot:run
 Os arquivos gerados estarão no diretório downloads/.
