@@ -22,7 +22,7 @@ public class WebScraperService {
 
     private static final String ANS_URL = "https://www.gov.br/ans/pt-br/acesso-a-informacao/participacao-da-sociedade/atualizacao-do-rol-de-procedimentos";
     private static final String DOWNLOAD_DIR = "downloads";
-    private static final String ZIP_FILE = "anexos.zip";
+    private static final String ZIP_FILE = "downloads/anexos.zip";
 
     public void executarScraping() throws IOException {
         // Baixar página HTML
